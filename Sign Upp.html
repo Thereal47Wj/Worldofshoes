@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+     <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+      <style>
+         body{
+            background-image:url(Thumbnail/Home\ page.jpg) ;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+       body{
+           font-family:"Mukta",sans-serif;
+           font-size: 14px;
+           margin-top:0;
+           color: white;
+           }
+       label{color:white;
+             font-weight:500;
+            }
+       .thedivv{ 
+           position:absolute;
+           top:15%;
+           left:30%;
+           background-color:#4A5C6A;
+           width:430px;
+           height:410px;
+           }
+        
+        .division1{
+           margin-top:15px;
+     
+
+           }
+         .division2{
+           margin-top:20px;
+
+           }
+         .division3{
+           margin-top:20px;
+          
+           }
+        .nameinput{
+          width:364px;
+          padding-top:10px;
+          padding-bottom:10px;
+          border-radius:4px;
+          border:none;
+          outline:transparent;
+        }
+
+      .second{
+          width:364px;
+          padding-top:10px;
+          padding-bottom:10px;
+          border-radius:4px;
+          border:none;
+          outline:transparent;
+      }
+     .third{ 
+          width:364px;
+          padding-top:10px;
+          padding-bottom:10px;
+          border-radius:4px;
+          border:none;
+          outline:transparent;
+      }
+      .thebutton{
+       margin-top:20px;
+       width:364px;
+       padding-top:10px;
+       padding-bottom:10px;
+       background-color:#667c8f;
+       border-style: solid;
+       border-color: #667c8f;
+       color:white;
+       border-radius:6px;
+       cursor: pointer;
+       font-weight:500;
+        }
+    .thebutton:hover{
+            background-color: #3a4550;
+            border-color: #ccd0cc;
+            
+        }
+        .thebutton:active{
+            background-color: #282f36;
+        }
+      .space{ 
+            margin-left:30px;
+            margin-top:0;
+            
+         }
+      
+ .forgrid{
+        display:grid;
+        grid-template-columns: 20px 1fr 1fr;
+        margin-bottom:0;
+        
+
+}
+.secondb{
+  margin-left: 235px;
+  border: transparent;
+  margin-top: 20px;
+  color: white;
+  
+  background-color: transparent;
+}
+      </style>
+     </head>
+
+     <body>
+         <div class="thedivv">
+       <div class="space">
+        <form>
+        <div class="forgrid">
+         <input class="check" type="checkbox" required>
+         <p class="para">Create a new acccount</p>
+        </div>
+       
+       <div class="division1">
+             <label for="name">First and last name</label><br>
+             <input class="nameinput" type="name" required>
+       </div>
+       <div class="division2">
+             <label for="email">Mobile number or email</label><br>
+             <input class="second" type="email" required>
+       </div>
+       <div class="division3">
+              <label for="password">Create a new password</label><br>
+              <input class="third" type="password" required>
+        </div>
+          <button class="thebutton">Continue</button>
+      </form>
+       <a href="sign.html"><button class="secondb">Already a customer</button></a>
+     </div>
+       
+       </div>
+    
+     </body>
+</html>
